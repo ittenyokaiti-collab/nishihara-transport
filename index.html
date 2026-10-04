@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>西原運送｜荷物と一緒に真心を</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP","Yu Gothic",sans-serif;color:#172235;background:#fff;line-height:1.8}
+a{text-decoration:none;color:inherit}
+.hero{min-height:720px;background:linear-gradient(90deg,rgba(5,19,39,.94) 0%,rgba(5,19,39,.78) 42%,rgba(5,19,39,.15) 100%),linear-gradient(135deg,#8aa0b5,#dce5eb);display:flex;align-items:center;padding:60px 8%;color:white;position:relative;overflow:hidden}
+.hero:after{content:"🚚";position:absolute;right:4%;bottom:-45px;font-size:300px;filter:drop-shadow(0 20px 20px rgba(0,0,0,.2))}
+.hero-content{max-width:680px;position:relative;z-index:2}
+.logo{font-weight:800;letter-spacing:.12em;font-size:1.05rem;margin-bottom:65px}
+.hero h1{font-size:clamp(2.5rem,7vw,5.8rem);line-height:1.12;letter-spacing:.03em;margin-bottom:22px}
+.hero h1 span{display:block;color:#e8bd4a;font-size:.42em;letter-spacing:.18em;margin-bottom:18px}
+.hero p{font-size:1.15rem;opacity:.92;max-width:540px}
+.btn{display:inline-block;background:#e8bd4a;color:#102039;padding:14px 28px;border-radius:4px;font-weight:800;margin-top:32px}
+section{padding:90px 8%}
+.section-head{margin-bottom:45px}
+.section-head small{color:#b28a25;font-weight:800;letter-spacing:.2em}
+.section-head h2{font-size:2.3rem;margin-top:8px}
+.intro{background:#f5f7f9}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:white;padding:34px;box-shadow:0 8px 30px rgba(10,30,60,.08);border-top:4px solid #172b48}
+.card .icon{font-size:2.4rem;margin-bottom:15px}
+.card h3{font-size:1.25rem;margin-bottom:10px}
+.message{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.message-box{background:#122640;color:#fff;padding:55px}
+.message-box h2{font-size:2.2rem;line-height:1.5}
+.message-box p{margin-top:22px;color:#dce4ee}
+.company{background:#fafafa}
+.info{width:100%;border-collapse:collapse}
+.info th,.info td{padding:17px 10px;border-bottom:1px solid #ddd;text-align:left}
+.info th{width:28%;color:#687487}
+.contact{background:#e9eef2;text-align:center}
+.contact h2{font-size:2.4rem}
+.contact p{margin-top:10px}
+.contact-note{margin-top:28px;font-weight:700;color:#122640}
+footer{background:#0c1a2c;color:#cbd5e1;padding:35px 8%;display:flex;justify-content:space-between;gap:20px}
+footer strong{color:white;font-size:1.2rem}
+@media(max-width:800px){
+.hero{min-height:680px;padding:40px 7%}
+.hero:after{font-size:180px;right:-25px;bottom:0;opacity:.35}
+.logo{margin-bottom:80px}
+.cards,.message{grid-template-columns:1fr}
+section{padding:65px 7%}
+.message{gap:30px}
+.message-box{padding:35px}
+footer{display:block} footer div+div{margin-top:15px}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-content">
+    <div class="logo">NISHIHARA TRANSPORT</div>
+    <h1><span>荷物と一緒に真心を。</span>西原運送</h1>
+    <p>大切なお荷物を、確かな安心とともに。<br>西原運送は、荷物だけではなく、お客様の想いまで大切にお届けします。</p>
+    <a class="btn" href="#contact">配送を相談する →</a>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="section-head"><small>SERVICE</small><h2>西原運送のサービス</h2></div>
+  <div class="cards">
+    <article class="card"><div class="icon">📦</div><h3>一般配送</h3><p>企業・店舗・個人のお客様のお荷物を、安全・丁寧にお届けします。</p></article>
+    <article class="card"><div class="icon">🚚</div><h3>法人配送</h3><p>定期便からスポット配送まで、事業に合わせた配送をサポートします。</p></article>
+    <article class="card"><div class="icon">⚡</div><h3>緊急配送</h3><p>「今日届けたい」「急いで運びたい」。そんなご相談にも柔軟に対応します。</p></article>
+  </div>
+</section>
+
+<section>
+  <div class="message">
+    <div>
+      <div class="section-head"><small>OUR PROMISE</small><h2>運ぶのは、荷物だけじゃない。</h2></div>
+      <p>荷物には、誰かの大切な想いが詰まっています。商品、書類、贈り物、生活に必要なもの。その一つひとつを「自分の大切な荷物」と考え、丁寧な仕事を積み重ねます。</p>
+    </div>
+    <div class="message-box">
+      <h2>「また西原運送に<br>お願いしたい。」</h2>
+      <p>そう思っていただける仕事を。<br>それが私たちの目標です。</p>
+    </div>
+  </div>
+</section>
+
+<section class="company">
+  <div class="section-head"><small>COMPANY</small><h2>会社概要</h2></div>
+  <table class="info">
+    <tr><th>会社名</th><td>西原運送</td></tr>
+    <tr><th>代表</th><td>西原武士</td></tr>
+    <tr><th>所在地</th><td>東京都荒川区町屋</td></tr>
+    <tr><th>事業内容</th><td>貨物運送・配送サービス</td></tr>
+    <tr><th>営業時間</th><td>9:00〜20:00</td></tr>
+  </table>
+</section>
+
+<section class="contact" id="contact">
+  <h2>配送のご相談・お見積り</h2>
+  <p>まずはお気軽にお問い合わせください。</p>
+  <p class="contact-note">お問い合わせ方法は現在準備中です。</p>
+</section>
+
+<footer>
+  <div><strong>西原運送</strong><br>荷物と一緒に真心を。</div>
+  <div>© NISHIHARA TRANSPORT</div>
+</footer>
+</body>
+</html>
